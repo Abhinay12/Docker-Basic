@@ -1,0 +1,17 @@
+1.Install JDK
+2.Signup In Docker and download and install Docker
+3.create a simple spring boot application
+4.create a simple rest controller
+5.create a docker file with name "Dockerfile"
+6.write the command in created docker file
+7.Go to terminal and root path of your project authenticate docker by “docker login”
+
+DOCKER IMAGE CREATION
+
+8.Build docker image by using command “docker build -t <any name>-img .”
+9. check docker image by using cmd "docker images"
+
+Push DOCKER IMAGE
+
+10. First tag docker image using cmd "docker tag <any name>-img  <username on docker>/<any name>-img "
+
